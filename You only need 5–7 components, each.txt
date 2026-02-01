@@ -1,0 +1,45 @@
+You only need 5–7 components, each in its own folder or repo.
+
+Here’s a killer lineup (you’re already halfway there):
+
+1️⃣ Expandable Card
+
+boolean state
+
+conditional rendering
+
+clean JSX
+
+2️⃣ Character Counter
+
+controlled input
+
+derived values
+
+validation UI
+
+3️⃣ Delayed Greeting (useEffect)
+
+mount-only effect
+
+timer
+
+state update after render
+
+4️⃣ Data Fetcher (mock or real API)
+
+loading state
+
+error handling
+
+useEffect dependencies
+
+5️⃣ Modal or Dropdown
+
+show/hide
+
+keyboard escape handling (bonus)
+
+composition
+
+That’s it.
