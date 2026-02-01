@@ -1,10 +1,25 @@
-## ExpandableCard
+# Expandable Card
 
-A simple component that demonstrates:
+A simple React component demonstrating conditional rendering using boolean state.
 
-- `useState` for UI state
-- toggling boolean state
-- conditional rendering using `&&`
-- declarative UI (state drives what renders)
+## What it demonstrates
+- Boolean state with `useState`
+- Conditional rendering using `&&`
+- Clean JSX structure
+- Accessible toggle behavior (`aria-expanded`)
 
-Clicking the button toggles whether the details section is visible.
+## Behavior
+- Clicking the button toggles the visibility of additional content
+- Button label updates based on state
+
+## Key React ideas
+- State: `detailsVisible` controls UI visibility
+- Rendering: content is only mounted when needed
+
+## Usage
+```js
+import ExpandableCard from "./ExpandableCard";
+
+function App() {
+  return <ExpandableCard />;
+}
